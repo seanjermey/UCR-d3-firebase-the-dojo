@@ -1,0 +1,40 @@
+
+.nav {
+  background: #333;
+}
+
+button {
+  background: #333 !important;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 16px;
+  font-size: 1.6em;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: capitalize;
+
+  &.active {
+    background: #00bfa5 !important;
+  }
+}
+
+form span {
+  color: #00bfa5 !important;
+}
+
+
+.graph {
+
+  .graph-axis {
+    path, line {
+      stroke: #ccc
+    }
+
+    text {
+      fill: #ccc;
+      font-size: 12px
+    }
+  }
+}
