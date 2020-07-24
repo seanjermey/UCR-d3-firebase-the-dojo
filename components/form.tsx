@@ -29,7 +29,7 @@ const Form = ({ activity, onSubmit }) => {
       }}
     >
       <p className={`flow-text grey-text center`}>
-        How much <span>{activity}</span> has you done today?
+        How much <span>{activity}</span> have you done today?
       </p>
       <input
         type={`text`}
